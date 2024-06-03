@@ -1,0 +1,60 @@
+body{
+    background-image: url(images/pexels-pixabay-290595.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+    padding: 40px;
+
+    h1,h2{
+        font-size: 180px;
+    }
+    p{
+        font-size: 80px;
+    }
+    div{
+        background-image: linear-gradient(rgb(248, 235, 235), rgb(129, 165, 243)) ;
+        background-color: rgb(248, 235, 235);
+        opacity: 84%;
+        display: block;
+        margin: 100px auto;
+        border-radius: 10px;
+    }
+    #superior{
+    margin: 0 auto;
+    display: block;
+    
+    }
+   img.paragraph{
+    float: right;
+    clear: both;
+    overflow: auto;
+   }
+   p.sub{
+    font-size: 70px;
+   }
+
+   li{
+    font-size: 60px;
+   }
+}
+   
+
+    @media screen and(min-width:1000px) {
+
+    .sub{ 
+       background-color: aquamarine;
+    }
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
